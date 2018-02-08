@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 引入struts2.3的约束 -->
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+    
+<struts>
+	<constant name="struts.devMode" value="true"></constant>
+	
+	<package name="action" extends="json-default">
+	
+		
+		<!-- 部门管理
+		<action name="showAllDept" class="deptAction" method="showAllDept">
+			
+		</action>
+		<action name="addDept" class="deptAction" method="addDept">
+			
+		</action>
+		<action name="deleteDept" class="deptAction" method="deleteDept">
+			
+		</action>
+		<action name="updateDept" class="deptAction" method="updateDept">
+			
+		</action>
+		<action name="findDeptById" class="deptAction" method="findDeptById">
+			
+		</action>
+		<action name="findDeptByName" class="deptAction" method="findDeptByName">
+			
+		</action>
+		 -->
+		
+		
+		<!-- 登录注册 -->
+		<action name="test" class="loginAction" method="showResource">
+		
+		</action>
+ 		<action name="loginAction" class="loginAction" method="loginAction">
+ 			
+ 		</action>
+ 		<action name="registerAction" class="loginAction" method="registerAction">
+ 		
+ 		</action>
+ 
+	</package>
+	
+</struts>
+
+
+
+
+
+

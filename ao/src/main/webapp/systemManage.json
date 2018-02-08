@@ -1,0 +1,65 @@
+[{
+	"id":1,
+	"text":"企业OA1.0",
+	"children":[{
+		"id":11,
+		"text":"系统管理",
+		"state":"closed",
+			"children":[{
+				"id":111,
+				"text":"<a href='userManage.jsp'>用户管理</a>"
+			},{
+				"id":112,
+				"text":"<a href='roleManage.jsp'>角色管理</a>"
+			},{
+				"id":113,
+				"text":"<a href='deptManage.jsp'>部门管理</a>"
+			},{
+				"id":114,
+				"text":"<a href='changePassword.jsp'>修改密码</a>"
+			},{
+				"id":115,
+				"text":"<a href='#'>资源管理</a>"
+			}]
+		},
+		{
+		"id":12,
+		"text":"字典管理",
+		"state":"closed",
+			"children":[{
+				"id":121,
+				"text":"<a href='#'>字典管理</a>"
+			}]
+		},
+		{
+		"id":13,
+		"text":"考勤管理",
+		"state":"closed",
+			"children":[{
+				"id":131,
+				"text":"<a href='#'>请假管理</a>"
+			},{
+				"id":132,
+				"text":"<a href='#'>上下班管理</a>"
+			},{
+				"id":133,
+				"text":"<a href='#'>外出管理</a>"
+			},{
+				"id":134,
+				"text":"<a href='#'>审核管理</a>"
+			}]	
+		},
+		{
+		"id":14,
+		"text":"日常管理",
+		"state":"closed",
+			"children":[{
+				"id":141,
+				"text":"<a href='#'>会议管理</a>"
+			},{
+				"id":142,
+				"text":"<a href='#'>公告管理</a>"
+			}]	
+		}
+	]
+}]
